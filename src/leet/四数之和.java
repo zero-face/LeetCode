@@ -25,7 +25,7 @@ public class 四数之和 {
             if((long)nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target) {
                 break;
             }
-            if((long)nums[i] + nums[n - 1] + nums[n - 2] +nums[n - 3] < target) {
+            if((long)nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target) {
                 continue;
             }
             for(int j = i + 1; j < n - 2; j++) {
