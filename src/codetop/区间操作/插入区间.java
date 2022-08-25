@@ -12,7 +12,7 @@ public class 插入区间 {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         int[][] res = new int[intervals.length + 1][2];
         int idx = 0;
-        // 遍历区间列表：
+        // 遍历区间列表:
         // 首先将新区间左边且相离的区间加入结果集
         int i = 0;
         while (i < intervals.length && intervals[i][1] < newInterval[0]) {
