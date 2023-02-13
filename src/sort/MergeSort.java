@@ -98,7 +98,7 @@ public class MergeSort {
      * @param right
      * @param temp
      */
-    public static void merger(int[] nums, int left,int right,int[] temp) {
+    public static void merger(int[] nums, int left, int right, int[] temp) {
         if(left < right) {
             //确定中点
             int mid = (left + right) / 2;

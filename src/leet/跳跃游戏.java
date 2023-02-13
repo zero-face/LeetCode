@@ -17,7 +17,8 @@ public class 跳跃游戏 {
             if (i <= rightmost) {
                 //是否能更新最大能到达的位置
                 rightmost = Math.max(rightmost, i + nums[i]);
-                //如果最大的位置已经大于等于最后一个下标就是可到达
+                //如果最大的位置已经大于等于最
+                // 后一个下标就是可到达
                 if (rightmost >= n - 1) {
                     return true;
                 }

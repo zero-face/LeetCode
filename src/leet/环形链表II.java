@@ -1,20 +1,14 @@
 package leet;
 
+import codetop.node.ListNode;
+
 /**
  * @author Zero
  * @date 2022/4/7 15:41
  * @description
  * @since 1.8
  **/
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
-public class 环形链表II {
+public class 环形链表II extends ListNode {
     //找到快慢指针交汇节点，然后找出环长，
     public ListNode detectCycle(ListNode head) {
         ListNode fast = head, slow = head;
