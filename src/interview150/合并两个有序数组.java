@@ -18,7 +18,7 @@ public class 合并两个有序数组 {
     }
 
     /**
-     * 由于是有序的数组，所以从后往前比较，大的放到最后面即可
+     * 简单提醒：由于是有序的数组，所以从后往前比较，大的放到最后面即可。
      */
     private static void merge(int[] nums1, int m, int[] nums2, int n) {
         int k = m + n;
